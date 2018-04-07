@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -83,7 +83,7 @@
 		E502AD1CD505674EF01F816AD05D6E39 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5313E95340536509F1FC699A6CF68 /* UIControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E6CE54473E6F1D2F7219D3ED83E328DD /* DynamicProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8870178C7732E8631FADEB619087EE7 /* DynamicProperty.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E84A6915C97D10C11C1E9C084BE8FC86 /* ReusableComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0269ADAD81E59E3CE29C3E1F4968605 /* ReusableComponents.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E87D9B9443E6158C8213AA6BC3B06854 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A166AE3C8D279809A204163A6808729 /* ObjCRuntimeAliases.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E87D9B9443E6158C8213AA6BC3B06854 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A166AE3C8D279809A204163A6808729 /* ObjCRuntimeAliases.h */; settings = {ATTRIBUTES = (Private, Project, ); }; };
 		EA36DE3FA21F88EEBB2AFA39527AD7F4 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DFAE97C7AFD5016703E8F675AE7408 /* UIScrollView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F0744B748C45A7C001927068F9EE40E9 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81885EE89C57EF51ED02187C04F407C0 /* Optional.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F0F49419C311C38085B17BFD146D0556 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0CF6662266C9F6DB45EA852E77E33F /* EventLogger.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -188,13 +188,13 @@
 		7BC293974A988DBCFDA04A9D9F5FB35A /* NSObject+Synchronizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Synchronizing.swift"; path = "ReactiveCocoa/NSObject+Synchronizing.swift"; sourceTree = "<group>"; };
 		7C88BF660C87DE648EA0723B39CFF109 /* Pods-CPTestCustomModuleMapAndPrivateHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPTestCustomModuleMapAndPrivateHeader.modulemap"; sourceTree = "<group>"; };
 		81885EE89C57EF51ED02187C04F407C0 /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = Sources/Optional.swift; sourceTree = "<group>"; };
-		83182AC9F7AC36435DD54A0DCB15AD58 /* libReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReactiveCocoa.a; path = libReactiveCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83182AC9F7AC36435DD54A0DCB15AD58 /* libReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactiveCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CDBDD3610EE9F87BE3CD6C8BAF6B3F /* SignalProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalProducer.swift; path = Sources/SignalProducer.swift; sourceTree = "<group>"; };
 		889F86A7440B67EC8BC6A26E8C65C64B /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Sources/Atomic.swift; sourceTree = "<group>"; };
 		8BF1951C15598AA07A137D9EB86E0B9C /* ReactiveSwift+Lifetime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReactiveSwift+Lifetime.swift"; path = "ReactiveCocoa/ReactiveSwift+Lifetime.swift"; sourceTree = "<group>"; };
 		8E9E9A757E9CBBEC7E4EDD6BD49A3B45 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Result-umbrella.h"; path = "../../Headers/Public/Result/Result-umbrella.h"; sourceTree = "<group>"; };
 		90BADABCC69F47B571E51F9891ADAF47 /* UIProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIProgressView.swift; path = ReactiveCocoa/UIKit/UIProgressView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945BD789F35062849A419FA188D0E9D7 /* Flatten.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flatten.swift; path = Sources/Flatten.swift; sourceTree = "<group>"; };
 		99F597CB594F9860CF5A8527832170D8 /* NSObject+Association.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Association.swift"; path = "ReactiveCocoa/NSObject+Association.swift"; sourceTree = "<group>"; };
 		9A49F3AE59F1F8739021C0E7C3EBEDE8 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = Sources/Disposable.swift; sourceTree = "<group>"; };
@@ -206,13 +206,13 @@
 		A2EE390A561EE7B5287A1856C484446A /* Pods-CPTestCustomModuleMapAndPrivateHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPTestCustomModuleMapAndPrivateHeader-dummy.m"; sourceTree = "<group>"; };
 		A479FE2103473FAF8D96500C76059D43 /* ObjC+Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjC+Selector.swift"; path = "ReactiveCocoa/ObjC+Selector.swift"; sourceTree = "<group>"; };
 		A605AFE782AB7175ADD05406E0965A81 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/Action.swift; sourceTree = "<group>"; };
-		A6E5DFE222A88433761B9508DF95C684 /* libReactiveSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReactiveSwift.a; path = libReactiveSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E5DFE222A88433761B9508DF95C684 /* libReactiveSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactiveSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84022735CD86ACF84E6D7CB28A4942F /* ReactiveCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = ReactiveCocoa.modulemap; path = ../../Headers/Private/ReactiveCocoa/ReactiveCocoa.modulemap; sourceTree = "<group>"; };
 		AA9A54EADC4533128EE8D35739E27384 /* UIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarItem.swift; path = ReactiveCocoa/UIKit/UIBarItem.swift; sourceTree = "<group>"; };
 		AFA61FDFD67B9B7A2CC23382F7B5386A /* ReactiveSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = ReactiveSwift.modulemap; path = ../../Headers/Public/ReactiveSwift/ReactiveSwift.modulemap; sourceTree = "<group>"; };
 		AFE6FE35F22C770E3BAA7D9A87DC223C /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Sources/Signal.swift; sourceTree = "<group>"; };
 		B082E54C5F2A0EAC5EF4E78218478497 /* UISegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISegmentedControl.swift; path = ReactiveCocoa/UIKit/UISegmentedControl.swift; sourceTree = "<group>"; };
-		B0DE996069049EAD7094717D497053A2 /* libPods-CPTestCustomModuleMapAndPrivateHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CPTestCustomModuleMapAndPrivateHeader.a"; path = "libPods-CPTestCustomModuleMapAndPrivateHeader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DE996069049EAD7094717D497053A2 /* libPods-CPTestCustomModuleMapAndPrivateHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPTestCustomModuleMapAndPrivateHeader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1482829752C4BB1DFFEE373E6ADFD4F /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizer.swift; path = ReactiveCocoa/UIKit/UIGestureRecognizer.swift; sourceTree = "<group>"; };
 		B4AF3E982B988A8FCCA35971A0530100 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraint.swift; path = ReactiveCocoa/Shared/NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		B5B212AF5901129013E7C2A0FF3B0E78 /* UITabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITabBarItem.swift; path = ReactiveCocoa/UIKit/UITabBarItem.swift; sourceTree = "<group>"; };
@@ -238,7 +238,7 @@
 		E39C51DF201E9C79C8E8FDA3FCF96481 /* NSObject+Lifetime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Lifetime.swift"; path = "ReactiveCocoa/NSObject+Lifetime.swift"; sourceTree = "<group>"; };
 		E45F695F725B13157AFBD8EF05B4BDE5 /* ReactiveSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReactiveSwift-umbrella.h"; path = "../../Headers/Public/ReactiveSwift/ReactiveSwift-umbrella.h"; sourceTree = "<group>"; };
 		E68303692A04C09A37552913FDEFB8D3 /* Pods-CPTestCustomModuleMapAndPrivateHeader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPTestCustomModuleMapAndPrivateHeader-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7CBFC8DB9D4B68D2B0A06194742DF82 /* libResult.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libResult.a; path = libResult.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CBFC8DB9D4B68D2B0A06194742DF82 /* libResult.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libResult.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B35259CF295D6FD97543AEE88C3ABC /* UIPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPickerView.swift; path = ReactiveCocoa/UIKit/iOS/UIPickerView.swift; sourceTree = "<group>"; };
 		F1D5741E6F389BF34FC0FEFA948232E2 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
 		F61823DEC7D2A05A6E8CEEEA9DFFFE9C /* ReactiveSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReactiveSwift-prefix.pch"; sourceTree = "<group>"; };
@@ -352,7 +352,6 @@
 				D5E360E68F28C489606AA23A516A1B24 /* ValidatingProperty.swift */,
 				6B123DE96FB4123FFF2317839F76C113 /* Support Files */,
 			);
-			name = ReactiveSwift;
 			path = ReactiveSwift;
 			sourceTree = "<group>";
 		};
@@ -400,7 +399,6 @@
 				0DFC0F46446787ADCF030D95DA385FE0 /* ResultProtocol.swift */,
 				6B6BF4F62F12E38DC94F630BFB793973 /* Support Files */,
 			);
-			name = Result;
 			path = Result;
 			sourceTree = "<group>";
 		};
@@ -498,7 +496,6 @@
 				C2F0A7E98330A88E6FAFE93F33FF0D5A /* UIView.swift */,
 				3015B0F71A4388CB6373A20382AF3A13 /* Support Files */,
 			);
-			name = ReactiveCocoa;
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
@@ -656,18 +653,17 @@
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
 				"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa.modulemap",
-				"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa-umbrella.h",
+				"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa.h",
 			);
 			name = "Copy generated compatibility header";
 			outputPaths = (
 				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa.h",
 				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Private/ReactiveCocoa/ReactiveCocoa.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
 		5E88260C77FF1B0790BDCAC319C06706 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -688,7 +684,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReactiveSwift/ReactiveSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReactiveSwift/ReactiveSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
 		};
 		6126CABA18A0F1971A2410F2B1EA54D8 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -709,7 +704,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Result/Result.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Result/Result-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
