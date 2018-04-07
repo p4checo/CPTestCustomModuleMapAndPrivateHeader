@@ -1,0 +1,6 @@
+module Pods_CPTestCustomModuleMapAndPrivateHeader [system] {
+  umbrella header "Pods-CPTestCustomModuleMapAndPrivateHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}
